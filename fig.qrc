@@ -1,0 +1,42 @@
+<RCC>
+    <qresource prefix="/">
+        <file>muscleback.png</file>
+        <file>musclefront.png</file>
+        <file>welcomebkgnd.jpg</file>
+        <file>Air Bike 1.jpg</file>
+        <file>Air Bike 2.jpg</file>
+        <file>Cable Crunch 1.jpg</file>
+        <file>Cable Crunch 2.jpg</file>
+        <file>Seated Leg Curl 2.jpg</file>
+        <file>5 O'Clock Lunge 1.png</file>
+        <file>5 O'Clock Lunge 2.png</file>
+        <file>Alternate Incline Dumbbell Curl 1.jpg</file>
+        <file>Alternate Incline Dumbbell Curl 2.jpg</file>
+        <file>Barbell Squat 1.jpg</file>
+        <file>Barbell Squat 2.jpg</file>
+        <file>Dumbbell Lunges 1.jpg</file>
+        <file>Dumbbell Lunges 2.jpg</file>
+        <file>Hammer Curls 1.jpg</file>
+        <file>Hammer Curls 2.jpg</file>
+        <file>Hyperextensions (Back Extensions) 1.jpg</file>
+        <file>Hyperextensions (Back Extensions) 2.jpg</file>
+        <file>Seated Leg Curl 1.jpg</file>
+        <file>red_clicked.png</file>
+        <file>mainbkgnd.jpg</file>
+        <file>welcomelogo.png</file>
+        <file>frame.jpg</file>
+        <file>muscleside.png</file>
+        <file>Pushups 2.jpg</file>
+        <file>Dips - Chest Version 1.jpg</file>
+        <file>Dips - Chest Version 2.jpg</file>
+        <file>Pushups 1.jpg</file>
+        <file>finished.png</file>
+        <file>relax_background.jpg</file>
+        <file>instructionslogo.png</file>
+    </qresource>
+    <qresource prefix="/sounds">
+        <file>avicii-wake-me-up-official-video.mp3</file>
+        <file>relax_music.mp3</file>
+        <file>fi_music.mp3</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>musclemain</class>
+ <widget class="QDialog" name="musclemain">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>650</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Exercise Main Page</string>
+  </property>
+  <widget class="QPushButton" name="mus_backbutton">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>60</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="font">
+    <font>
+     <family>Georgia</family>
+     <pointsize>16</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="absbutton">
+   <property name="geometry">
+    <rect>
+     <x>165</x>
+     <y>170</y>
+     <width>81</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#absbutton
+{
+background-color: transparent;
+background: none;
+border: none;
+}
+#absbutton:pressed
+{
+border-image:url(:red_clicked.png);
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="shortcut">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="body_label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>-10</y>
+     <width>391</width>
+     <height>641</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="fig.qrc">:/musclefront.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="armsbutton1">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>110</y>
+     <width>61</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#armsbutton1
+{
+background-color: transparent;
+background: none;
+border: none;
+}
+#armsbutton1:pressed
+{
+border-image:url(:red_clicked.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="armsbutton2">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>100</y>
+     <width>71</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#armsbutton2
+{
+background-color: transparent;
+background: none;
+border: none;
+}
+#armsbutton2:pressed
+{
+border-image:url(:red_clicked.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="legbutton1">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>260</y>
+     <width>61</width>
+     <height>301</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#legbutton1
+{
+background-color: transparent;
+background: none;
+border: none;
+}
+#legbutton1:pressed
+{
+border-image:url(:red_clicked.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="legbutton2">
+   <property name="geometry">
+    <rect>
+     <x>215</x>
+     <y>262</y>
+     <width>71</width>
+     <height>301</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#legbutton2
+{
+background-color: transparent;
+background: none;
+border: none;
+}
+#legbutton2:pressed
+{
+border-image:url(:red_clicked.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="hipbutton">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>280</y>
+     <width>121</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#hipbutton
+{
+background-color: transparent;
+background: none;
+border: none;
+}
+#hipbutton:pressed
+{
+border-image:url(:red_clicked.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="backbutton">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>110</y>
+     <width>111</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#backbutton
+{
+background-color: transparent;
+background: none;
+border: none;
+}
+#backbutton:pressed
+{
+border-image:url(:red_clicked.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QSlider" name="turnSlider">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>610</y>
+     <width>160</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="chestbutton">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>140</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#chestbutton
+{
+background-color: transparent;
+background: none;
+border: none;
+}
+#chestbutton:pressed
+{
+border-image:url(:red_clicked.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="body_label_2">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>20</y>
+     <width>111</width>
+     <height>581</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="fig.qrc">:/muscleside.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="sideArmButton">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>140</y>
+     <width>51</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#sideArmButton
+{
+background-color: transparent;
+background: none;
+border: none;
+}
+#sideArmButton:pressed
+{
+border-image:url(:red_clicked.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="sideHipButton">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>290</y>
+     <width>61</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#sideHipButton
+{
+background-color: transparent;
+background: none;
+border: none;
+}
+#sideHipButton:pressed
+{
+border-image:url(:red_clicked.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="sideLegButton">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>350</y>
+     <width>51</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#sideLegButton
+{
+background-color: transparent;
+background: none;
+border: none;
+}
+#sideLegButton:pressed
+{
+border-image:url(:red_clicked.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>body_label</zorder>
+  <zorder>mus_backbutton</zorder>
+  <zorder>absbutton</zorder>
+  <zorder>armsbutton1</zorder>
+  <zorder>armsbutton2</zorder>
+  <zorder>legbutton1</zorder>
+  <zorder>legbutton2</zorder>
+  <zorder>hipbutton</zorder>
+  <zorder>backbutton</zorder>
+  <zorder>turnSlider</zorder>
+  <zorder>chestbutton</zorder>
+  <zorder>body_label_2</zorder>
+  <zorder>sideArmButton</zorder>
+  <zorder>sideHipButton</zorder>
+  <zorder>sideLegButton</zorder>
+ </widget>
+ <resources>
+  <include location="fig.qrc"/>
+ </resources>
+ <connections/>
+</ui>

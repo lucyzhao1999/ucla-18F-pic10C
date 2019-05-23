@@ -3,8 +3,10 @@ UCLA 2018 Fall- PIC10C Advanced Programming (C++) Final Project, Professor Claud
 
 We designed a fitness app which can serve as an offline exercise dictionary and a to-do list, which saves exercise progress. 
 
-# Production
+# Production& Relative Topics
 C++ and Qt
+
+Relevent PIC10C topics: pointers, memory management, QT Widgets, signals & slots, inheritance
 
 # Instructions 
 
